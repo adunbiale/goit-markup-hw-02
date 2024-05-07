@@ -7,7 +7,7 @@ body {
         letter-spacing: 0.02em;
         color: #434455;
 }
-.logo { 
+.top-line .logo { 
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
@@ -17,12 +17,10 @@ body {
         color: #4d5ae5;
         text-decoration: none;
 }
-.logo-studio {
+.top-line .logo-studio {
     color: #2e2f42;
 }
-.menu-links .studio,
-.menu-links .portfolio,
-.menu-links .contact {
+.menu-links .menu-links-list {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -30,23 +28,17 @@ body {
         color: #2e2f42;
         text-decoration: none;
 }
-.menu-links .studio:hover,
-.menu-links .studio:active,
-.menu-links .studio:focus,
-.menu-links .portfolio:hover,
-.menu-links .portfolio:focus,
-.menu-links .contact:hover
-.menu-links .contact:focus
+.menu-links .menu-links-list:hover,
+.menu-links .menu-links-list:focus
 {
     color: #404bbf;
 }
-.menu-links .studio:active {
+.menu-links .menu-links-list:active {
     text-decoration: underline;
 }
 
 
-.menu-contacts .email,
-.menu-contacts .phone {
+.menu-contacts .menu-contacts-list {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -57,10 +49,8 @@ body {
 address {
     font-style: normal;
 }
-.menu-contacts .email:hover,
-.menu-contacts .email:focus,
-.menu-contacts .phone:hover,
-.menu-contacts .phone:focus
+.menu-contacts .menu-contacts-list:hover,
+.menu-contacts .menu-contacts-list:focus
 {
     color: #404bbf;
 }
@@ -90,9 +80,9 @@ ul {
             letter-spacing: 0.04em;
             color: #fff;
 }
-.order-button:hover
+.order-button:hover,
 .order-button:focus {
-    background: #404bbf;
+    background-color: #404bbf;
     cursor: pointer;
 }
 
@@ -116,7 +106,7 @@ h3 {
 .team-section {
     background-color: #f4f4fd;
 }
-.guerrero_box {
+.team-section .team-list {
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16),
         0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -124,33 +114,22 @@ h3 {
         text-align: center;
 }
 
-.tom-ford-box {
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-        0 1px 1px 0 rgba(46, 47, 66, 0.16),
-        0 1px 6px 0 rgba(46, 47, 66, 0.08);
-        background: #fff;
-        text-align: center;
-}
-.camila-garcia-box {
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-        0 1px 1px 0 rgba(46, 47, 66, 0.16),
-        0 1px 6px 0 rgba(46, 47, 66, 0.08);
-        background: #fff;
-        text-align: center;
-}
-.daniel-wilson-box {
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-        0 1px 1px 0 rgba(46, 47, 66, 0.16),
-        0 1px 6px 0 rgba(46, 47, 66, 0.08);
-        background: #fff;
-        text-align: center;
-}
-footer {
+.end-of-the-page {
     background-color: #2e2f42;
 }
 .end-of-the-page-paragraph {
         color: #f4f4fd;
 }
-footer .logo-studio {
+.end-of-the-page .logo {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        text-decoration: none;
+}
+.end-of-the-page .logo-studio {
     color: #f4f4fd
  }
