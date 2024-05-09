@@ -72,7 +72,6 @@ ul {
 }
 .order-button {
     font-family: "Roboto", sans-serif;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4d5ae5;
         font-weight: 500;
             font-size: 16px;
@@ -107,9 +106,6 @@ h3 {
     background-color: #f4f4fd;
 }
 .team-section .team-list {
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-        0 1px 1px 0 rgba(46, 47, 66, 0.16),
-        0 1px 6px 0 rgba(46, 47, 66, 0.08);
         background: #fff;
         text-align: center;
 }
